@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -73,6 +73,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -127,21 +130,178 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="78890ea8" class="cell" data-execution_count="41">
+<div id="dc19e26d" class="cell" data-execution_count="12">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="ancillary_files/figure-html/cell-4-output-1.png" width="554" height="432" class="figure-img"></p>
+<p><img src="ancillary_files/figure-html/cell-4-output-1.png" width="2084" height="390" class="figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
-<div id="f8747bab" class="cell" data-execution_count="48">
+<div id="78890ea8" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="ancillary_files/figure-html/cell-5-output-1.png" width="1390" height="590" class="figure-img"></p>
+<p><img src="ancillary_files/figure-html/cell-5-output-1.png" width="554" height="432" class="figure-img"></p>
 </figure>
+</div>
+</div>
+</div>
+<div id="f8747bab" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ancillary_files/figure-html/cell-6-output-1.png" width="1390" height="590" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="3c633894" class="cell" data-execution_count="16">
+<div class="cell-output cell-output-display" data-execution_count="16">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">interval_start_local</th>
+<th data-quarto-table-cell-role="th">interval_start_utc</th>
+<th data-quarto-table-cell-role="th">interval_end_local</th>
+<th data-quarto-table-cell-role="th">interval_end_utc</th>
+<th data-quarto-table-cell-role="th">as_type</th>
+<th data-quarto-table-cell-role="th">mcpc</th>
+<th data-quarto-table-cell-role="th">year</th>
+<th data-quarto-table-cell-role="th">window</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>2024-11-20 00:00:00-06:00</td>
+<td>2024-11-20 06:00:00+00:00</td>
+<td>2024-11-20 01:00:00-06:00</td>
+<td>2024-11-20 07:00:00+00:00</td>
+<td>ECRS</td>
+<td>0.04</td>
+<td>2024</td>
+<td>Earlier</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">5</th>
+<td>2024-11-20 01:00:00-06:00</td>
+<td>2024-11-20 07:00:00+00:00</td>
+<td>2024-11-20 02:00:00-06:00</td>
+<td>2024-11-20 08:00:00+00:00</td>
+<td>ECRS</td>
+<td>0.05</td>
+<td>2024</td>
+<td>Earlier</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">10</th>
+<td>2024-11-20 02:00:00-06:00</td>
+<td>2024-11-20 08:00:00+00:00</td>
+<td>2024-11-20 03:00:00-06:00</td>
+<td>2024-11-20 09:00:00+00:00</td>
+<td>ECRS</td>
+<td>0.04</td>
+<td>2024</td>
+<td>Earlier</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">15</th>
+<td>2024-11-20 03:00:00-06:00</td>
+<td>2024-11-20 09:00:00+00:00</td>
+<td>2024-11-20 04:00:00-06:00</td>
+<td>2024-11-20 10:00:00+00:00</td>
+<td>ECRS</td>
+<td>0.04</td>
+<td>2024</td>
+<td>Earlier</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">20</th>
+<td>2024-11-20 04:00:00-06:00</td>
+<td>2024-11-20 10:00:00+00:00</td>
+<td>2024-11-20 05:00:00-06:00</td>
+<td>2024-11-20 11:00:00+00:00</td>
+<td>ECRS</td>
+<td>0.04</td>
+<td>2024</td>
+<td>Earlier</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">6695</th>
+<td>2025-12-19 19:00:00-06:00</td>
+<td>2025-12-20 01:00:00+00:00</td>
+<td>2025-12-19 20:00:00-06:00</td>
+<td>2025-12-20 02:00:00+00:00</td>
+<td>ECRS</td>
+<td>2.09</td>
+<td>2025</td>
+<td>Later</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">6700</th>
+<td>2025-12-19 20:00:00-06:00</td>
+<td>2025-12-20 02:00:00+00:00</td>
+<td>2025-12-19 21:00:00-06:00</td>
+<td>2025-12-20 03:00:00+00:00</td>
+<td>ECRS</td>
+<td>1.20</td>
+<td>2025</td>
+<td>Later</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">6705</th>
+<td>2025-12-19 21:00:00-06:00</td>
+<td>2025-12-20 03:00:00+00:00</td>
+<td>2025-12-19 22:00:00-06:00</td>
+<td>2025-12-20 04:00:00+00:00</td>
+<td>ECRS</td>
+<td>1.27</td>
+<td>2025</td>
+<td>Later</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">6710</th>
+<td>2025-12-19 22:00:00-06:00</td>
+<td>2025-12-20 04:00:00+00:00</td>
+<td>2025-12-19 23:00:00-06:00</td>
+<td>2025-12-20 05:00:00+00:00</td>
+<td>ECRS</td>
+<td>2.00</td>
+<td>2025</td>
+<td>Later</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">6715</th>
+<td>2025-12-19 23:00:00-06:00</td>
+<td>2025-12-20 05:00:00+00:00</td>
+<td>2025-12-20 00:00:00-06:00</td>
+<td>2025-12-20 06:00:00+00:00</td>
+<td>ECRS</td>
+<td>2.09</td>
+<td>2025</td>
+<td>Later</td>
+</tr>
+</tbody>
+</table>
+
+<p>1344 rows × 8 columns</p>
 </div>
 </div>
 </div>
