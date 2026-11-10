@@ -11,7 +11,7 @@
     "href": "projects/analytics.html",
     "title": "ERCOT RTC+B Analysis",
     "section": "",
-    "text": "Analysis of RTC+B implementation on ERCOT."
+    "text": "Analysis of RTC+B implementation on ERCOT.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnnamed: 0\nlocal_time\ndatetime_utc\nspn\ntype\nprice\ntime_utc\n\n\n\n\n0\n1\n1/1/25 0:00\n1/1/25 6:00\nLZ_HOUSTON\nLZ\n17.90\n2025-01-01 06:00:00\n\n\n1\n2\n1/1/25 0:00\n1/1/25 6:00\nLZ_HOUSTON\nLZEW\n17.90\n2025-01-01 06:00:00\n\n\n2\n3\n1/1/25 0:15\n1/1/25 6:15\nLZ_HOUSTON\nLZ\n17.98\n2025-01-01 06:15:00\n\n\n3\n4\n1/1/25 0:15\n1/1/25 6:15\nLZ_HOUSTON\nLZEW\n17.98\n2025-01-01 06:15:00\n\n\n4\n5\n1/1/25 0:30\n1/1/25 6:30\nLZ_HOUSTON\nLZ\n18.21\n2025-01-01 06:30:00"
   },
   {
     "objectID": "projects/ancillary.html",
