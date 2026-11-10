@@ -13,4 +13,5 @@ dependencies = [
     "scikit-learn",
     "openpyxl",
     "ipykernel",
+    "gridstatusio>=0.16.1",
 ]
