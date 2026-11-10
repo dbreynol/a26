@@ -24,8 +24,8 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Install GridStatus
-        run: pip install gridstatusio
+      - name: Install Python dependencies
+        run: pip install gridstatusio pandas jupyter ipykernel
 
       - name: Download ERCOT prices
         env:
