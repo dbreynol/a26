@@ -13,10 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
-
-    env:
-      QUARTO_PYTHON: ${{ github.workspace }}/.venv/bin/python
+      contents: read
 
     steps:
       - name: Checkout repository
@@ -38,12 +35,9 @@ jobs:
           GRIDSTATUS_API_KEY: ${{ secrets.GRIDSTATUS_API_KEY }}
         run: uv run python scripts/update_ercot.py
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Publish website
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Upload CSV artifact
+        uses: actions/upload-artifact@v4
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: ercot-spp-data
+          path: data/ercot_spp.csv
+          if-no-files-found: error
