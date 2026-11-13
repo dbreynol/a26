@@ -10,6 +10,9 @@ website:
       - about.qmd
       - href: projects/analytics.ipynb
         text: ERCOT Analysis
+      - href: projects/ercot.ipynb
+        text: ERCOT Dashboard
+
 
 format:
   html:
